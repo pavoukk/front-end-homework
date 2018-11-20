@@ -7,18 +7,28 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
+
 <div class="margin__auto">
     <div class="header">
         <h1 class="header__title">palo alto</h1>
         <ul class="navigation__list">
             <li class="navigation-list__item">
-                <span class="inactive">Home</span>
+                <a class="nav__link inactive" href="#">Home</a>
             </li>
-            <li class="navigation-list__item">About</li>
-            <li class="navigation-list__item">Archive</li>
-            <li class="navigation-list__item">Contact</li>
             <li class="navigation-list__item">
-                <img class="search-image" src="../images/Search.png" alt="image not found">
+                <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="navigation-list__item">
+                <a class="nav__link" href="#">Archive</a>
+            </li>
+            <li class="navigation-list__item">
+                <a class="nav__link" href="#">Contact</a>
+            </li>
+
+            <li class="navigation-list__item">
+                <a class="nav__link" href="#">
+                    <img class="search-image" src="../images/Search.png" alt="image not found">
+                </a>
             </li>
         </ul>
     </div>
@@ -27,7 +37,9 @@
     <ul class="posts__list">
         <li class="posts-list__item">
             <div class="without__image">
-                <div class="mark first__post">I do travel</div>
+                <div class="mark first__post">
+                    <a class="mark__link" href="#">I do travel</a>
+                </div>
                 <div class="date">Sep 20</div>
 
                 <h2 class="post__title">
@@ -45,16 +57,16 @@
                         Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
                     </p>
                 </div>
-                <a class="post-item__link" href="/post1">read more</a>
+                <a class="post-item__link" href="#">read more</a>
                 <ul class="hashtags__list">
                     <li class="hashtags-list__item">
-                        yosemite
+                        <a class="hashtags__link" href="#">yosemite</a>
                     </li>
                     <li class="hashtags-list__item">
-                        peak
+                        <a class="hashtags__link" href="#">peak</a>
                     </li>
                     <li class="hashtags-list__item">
-                        explorer
+                        <a class="hashtags__link" href="#">explorer</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +74,9 @@
         <li class="posts-list__item">
             <img class="post__image" src="../images/img.png" alt="image not found">
             <div class="without__image">
-                <div class="mark second__post">I do observe</div>
+                <div class="mark second__post">
+                    <a class="mark__link" href="#">I do observe</a>
+                </div>
                 <div class="date">Sep 18</div>
 
                 <h3 class="post__title">
@@ -95,26 +109,27 @@
                         id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.
                     </p>
                 </div>
-                <a class="post-item__link" href="/post2">read more</a>
+                <a class="post-item__link" href="#">read more</a>
                 <ul class="hashtags__list">
                     <li class="hashtags-list__item">
-                        Yosemite
+                        <a class="hashtags__link" href="#">yosemite</a>
                     </li>
                     <li class="hashtags-list__item">
-                        Peak
+                        <a class="hashtags__link" href="#">peak</a>
                     </li>
                     <li class="hashtags-list__item">
-                        Photo
+                        <a class="hashtags__link" href="#">photo</a>
                     </li>
                 </ul>
             </div>
         </li>
         <li class="posts-list__item">
             <div class="without__image">
-                <div class="mark third__post">I do reflect</div>
+                <div class="mark third__post">
+                    <a class="mark__link" href="#">I do reflect</a>
+                </div>
                 <div class="date">Sep 11
                 </div>
-
                 <h4 class="post__title">
                     Democracy means simply the bludgeoning of the people by the people for the people.
                 </h4>
@@ -167,10 +182,10 @@
                 <a class="post-item__link" href="/post3">read more</a>
                 <ul class="hashtags__list">
                     <li class="hashtags-list__item">
-                        Democracy
+                        <a class="hashtags__link" href="#">democracy</a>
                     </li>
                     <li class="hashtags-list__item">
-                        Introspection
+                        <a class="hashtags__link" href="#">introspection</a>
                     </li>
                 </ul>
             </div>
@@ -180,20 +195,30 @@
 <div class="footer">
     <h5 class="blog__name margin__auto">Palo Alto</h5>
     <ul class="navigation-list__footer margin__auto">
-        <li class="navigation-list-footer__item">Home</li>
-        <li class="navigation-list-footer__item">About</li>
-        <li class="navigation-list-footer__item">Archive</li>
-        <li class="navigation-list-footer__item">Contact</li>
         <li class="navigation-list-footer__item">
-            <img class="search-image" src="../images/searchwhite.png" alt="image not found">
+            <a class="nav-link__footer inactive__footer" href="#">Home</a>
+        </li>
+        <li class="navigation-list-footer__item">
+            <a class="nav-link__footer" href="#">About</a>
+        </li>
+        <li class="navigation-list-footer__item">
+            <a class="nav-link__footer" href="#">Archive</a>
+        </li>
+        <li class="navigation-list-footer__item">
+            <a class="nav-link__footer" href="#">Contact</a>
+        </li>
+        <li class="navigation-list-footer__item">
+            <a class="nav-link__footer" href="#">
+                <img class="search-image" src="../images/searchwhite.png" alt="image not found">
+            </a>
         </li>
     </ul>
-    <div class="split__line margin__auto"></div>
+    <div class="split__line__footer margin__auto"></div>
     <p class="description margin__auto">
         Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper
         ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.
     </p>
-    <div class="split__line margin__auto"></div>
+    <div class="split__line__footer margin__auto"></div>
     <p class="copyright margin__auto">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
         <a class="developer_link" href="developer.it">Buddha Team</a>
     </p>
@@ -202,10 +227,10 @@
             <img src="../images/facebook.png">
         </li>
         <li class="social-networks__item">
-            <img src="../images/instagram.png">
+            <img src="../images/twitter.png">
         </li>
         <li class="social-networks__item">
-            <img src="../images/twitter.png">
+            <img src="../images/instagram.png">
         </li>
         <li class="social-networks__item">
             <img src="../images/pinterest.png">
