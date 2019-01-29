@@ -8,232 +8,237 @@
 </head>
 <body>
 
-<div class="margin__auto">
-    <div class="header">
-        <h1 class="header__title">palo alto</h1>
-        <ul class="navigation__list">
-            <li class="navigation-list__item">
-                <a class="nav__link inactive" href="#">Home</a>
+<header class="header content__header">
+    <!--<h1 class="header__title">palo alto</h1>-->
+    <img class="header__icon" src="../images/paloalto.png">
+    <nav class="header__nav nav">
+        <ul class="header__list nav__list">
+            <li class="header__item nav__item nav__item_inactive">
+                <!--<a class="nav__link inactive" href="#">Home</a>-->Home
             </li>
-            <li class="navigation-list__item">
-                <a class="nav__link" href="#">About</a>
+            <li class="header__item nav__item">
+                <a class="header__link nav__link nav__link_active" href="#">About</a>
             </li>
-            <li class="navigation-list__item">
-                <a class="nav__link" href="#">Archive</a>
+            <li class="header__item nav__item">
+                <a class="header__link nav__link link nav__link_active" href="#">Archive</a>
             </li>
-            <li class="navigation-list__item">
-                <a class="nav__link" href="#">Contact</a>
+            <li class="header__item nav__item">
+                <a class="header__link nav__link link nav__link_active" href="contacts.html">Contact</a>
             </li>
 
-            <li class="navigation-list__item">
-                <a class="nav__link" href="#">
-                    <img class="search-image" src="../images/Search.png" alt="image not found">
+            <li class="header__item nav__item">
+                <a class="header__search-icon nav__search-icon" href="#">
+                    <div class="nav__search-icon"></div>
                 </a>
             </li>
         </ul>
-    </div>
-</div>
-<div class="content margin__auto">
-    <ul class="posts__list">
-        <li class="posts-list__item">
-            <div class="without__image">
-                <div class="mark first__post">
-                    <a class="mark__link" href="#">I do travel</a>
-                </div>
-                <div class="date">Sep 20</div>
+        <div class="header_480_320 nav_480_320">
+            <a class="nav_480_320__link" href="#">
+            </a>
+        </div>
+    </nav>
+</header>
 
-                <h2 class="post__title">
-                    No differene how many peaks you reach if there was no pleasure in the climb.
-                </h2>
-                <div class="split__line"></div>
-                <div class="posts-item__text">
-                    <p class="text__style">
-                        Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna.
-                        Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
-                        Sed
-                        ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                        egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                        augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                        Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                    </p>
-                </div>
-                <a class="post-item__link" href="#">read more</a>
-                <ul class="hashtags__list">
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">yosemite</a>
-                    </li>
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">peak</a>
-                    </li>
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">explorer</a>
-                    </li>
-                </ul>
+<main class="content">
+    <ul class="content__posts posts">
+        <li class="posts__item">
+            <div class="posts__mark">
+                <a class="posts__mark_link" href="#">I do travel</a>
             </div>
-        </li>
-        <li class="posts-list__item">
-            <img class="post__image" src="../images/img.png" alt="image not found">
-            <div class="without__image">
-                <div class="mark second__post">
-                    <a class="mark__link" href="#">I do observe</a>
-                </div>
-                <div class="date">Sep 18</div>
+            <div class="posts__date">Sep 20</div>
 
-                <h3 class="post__title">
-                    You know, I'd rather argue with you, then laugh with anyone else.
-                </h3>
-                <div class="split__line"></div>
-                <div class="posts-item__text">
-                    <div class="quote">
-                        <p class="quote__text">
-                            Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus, tempor velit hendrerit,
-                            vulputate lacus. Nunc fermentum nunc sem, ac eleifend tellus cursus nec. Donec a euismod
-                            est,
-                            vitae
-                            accumsan purus. Proin aliquet ex massa, ac finibus magna commodo vitae.
-                        </p>
-                    </div>
-                    <p class="text__style">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac
-                        elementum urna.
-                        Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
-                        Sed
-                        ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                        egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                        augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                        Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                    </p>
-                    <p class="text__style">
-                        Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra. Curabitur semper
-                        scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio mi,
-                        iaculis
-                        id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.
-                    </p>
-                </div>
-                <a class="post-item__link" href="#">read more</a>
-                <ul class="hashtags__list">
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">yosemite</a>
-                    </li>
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">peak</a>
-                    </li>
-                    <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">photo</a>
-                    </li>
-                </ul>
-            </div>
+            <h2 class="posts__title">
+                No differene how many peaks you reach if there was no pleasure in the climb.
+            </h2>
+            <p class="posts__text text">
+                Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna.
+                Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
+                Sed
+                ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
+                egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
+                augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
+                Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
+            </p>
+            <a class="posts__button button" href="#">read more</a>
+            <ul class="posts__hashtags-list hashtags-list">
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">yosemite</a>
+                </li>
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">peak</a>
+                </li>
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">explorer</a>
+                </li>
+            </ul>
         </li>
-        <li class="posts-list__item">
-            <div class="without__image">
-                <div class="mark third__post">
-                    <a class="mark__link" href="#">I do reflect</a>
+
+        <li class="posts__item">
+            <img class="second-post__image" src="../images/mountain.png" alt="image not found">
+            <div class="posts__mark second__post">
+                <a class="posts__mark_link" href="#">I do observe</a>
+            </div>
+            <div class="posts__date">Sep 18</div>
+
+            <h3 class="posts__title">
+                You know, I'd rather argue with you, then laugh with anyone else.
+            </h3>
+            <div class="posts__quote quote">
+                <p class="quote__text">
+                    Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus, tempor velit hendrerit,
+                    vulputate lacus. Nunc fermentum nunc sem, ac eleifend tellus cursus nec. Donec a euismod
+                    est,
+                    vitae
+                    accumsan purus. Proin aliquet ex massa, ac finibus magna commodo vitae.
+                </p>
+            </div>
+            <p class="posts__text text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac
+                elementum urna.
+                Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
+                Sed
+                ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
+                egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
+                augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
+                Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
+            </p>
+            <p class="posts__text text">
+                Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra. Curabitur semper
+                scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio mi,
+                iaculis
+                id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.
+            </p>
+            <a class="posts__button" href="#">read more</a>
+            <ul class="posts__hashtags-list hashtags-list">
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">yosemite</a>
+                </li>
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">peak</a>
+                </li>
+                <li class="hashtags-list__item">
+                    <a class="hashtags-list__link" href="#">photo</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="posts__item">
+            <div class="no-post-image__item">
+                <div class="posts__mark">
+                    <a class="posts__mark_link" href="#">I do reflect</a>
                 </div>
-                <div class="date">Sep 11
+                <div class="posts__date">Sep 11
                 </div>
-                <h4 class="post__title">
+                <h4 class="posts__title">
                     Democracy means simply the bludgeoning of the people by the people for the people.
                 </h4>
-                <div class="split__line"></div>
-                <div class="posts-item__text">
-                    <img class="post__image" src="../images/vumen.png" alt="image not found">
-                    <p class="text__style">
-                        Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac
-                        elementum urna.
-                        Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
-                        Sed
-                        ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                        egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                        augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                        Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                    </p>
-                    <p class="text__style">
-                        Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend
-                        dui
-                        et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem,
-                        <a class="text__link" href="source.com">vestibulum malesuada</a> justo aliquet eget. Nunc lacus
-                        ante, varius
-                        a
-                        euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue
-                        nisi,
-                        venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend.
-                        Aliquam
-                        quis orci dignissim, posuere nibh a, eleifend augue. Cras quis metus nec tortor aliquet
-                        ullamcorper.
-                        Quisque varius porta metus, ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.
-                    </p>
-                    <div class="quote-with__line">
-                        <p class="quote-with-line__text">
-                            Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus
-                            turpis, a
-                            porttitor velit imperdiet id.
-                        </p>
-                    </div>
-                    <p class="text__style">
-                        Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut,
-                        ullamcorper
-                        ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam
-                        scelerisque
-                        ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus feugiat tincidunt.
-                        Aliquam
-                        gravida
-                        quam at ipsum sagittis bibendum.
-                    </p>
-                </div>
-                <a class="post-item__link" href="/post3">read more</a>
-                <ul class="hashtags__list">
+                <img class="third-post__image" src="../images/vumen.png" alt="vumen">
+                <p class="posts__text text">
+                    Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac
+                    elementum urna.
+                    Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus.
+                    Sed
+                    ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
+                    egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
+                    augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
+                    Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
+                </p>
+                <p class="posts__text text">
+                    Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend
+                    dui
+                    et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem,
+                    <a class="text__link" href="#">vestibulum malesuada</a> justo aliquet eget. Nunc lacus
+                    ante, varius
+                    a
+                    euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue
+                    nisi,
+                    venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend.
+                    Aliquam
+                    quis orci dignissim, posuere nibh a, eleifend augue. Cras quis metus nec tortor aliquet
+                    ullamcorper.
+                    Quisque varius porta metus, ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.
+                </p>
+                <p class="posts__quote_left-border">
+                    Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus
+                    turpis, a
+                    porttitor velit imperdiet id.
+                </p>
+                <p class="posts__text text">
+                    Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut,
+                    ullamcorper
+                    ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam
+                    scelerisque
+                    ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus feugiat tincidunt.
+                    Aliquam
+                    gravida
+                    quam at ipsum sagittis bibendum.
+                </p>
+                <a class="posts__button" href="/post3">read more</a>
+                <ul class="posts__hashtags-list hashtags-list">
                     <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">democracy</a>
+                        <a class="hashtags-list__link" href="#">democracy</a>
                     </li>
                     <li class="hashtags-list__item">
-                        <a class="hashtags__link" href="#">introspection</a>
+                        <a class="hashtags-list__link" href="#">introspection</a>
                     </li>
                 </ul>
             </div>
         </li>
     </ul>
-</div>
+</main>
+
 <div class="footer">
-    <h5 class="blog__name margin__auto">Palo Alto</h5>
-    <ul class="navigation-list__footer margin__auto">
-        <li class="navigation-list-footer__item">
-            <a class="nav-link__footer inactive__footer" href="#">Home</a>
+    <h5 class="blog__name">Palo Alto</h5>
+    <ul class="navigation-list__footer">
+        <li class="navigation-list-footer__item inactive__footer">
+            <!--<a class="nav-link__footer inactive__footer" href="#">Home</a>-->Home
         </li>
         <li class="navigation-list-footer__item">
-            <a class="nav-link__footer" href="#">About</a>
+            <a class="nav-link__footer active__footer" href="#">About</a>
         </li>
         <li class="navigation-list-footer__item">
-            <a class="nav-link__footer" href="#">Archive</a>
+            <a class="nav-link__footer active__footer" href="#">Archive</a>
         </li>
         <li class="navigation-list-footer__item">
-            <a class="nav-link__footer" href="#">Contact</a>
+            <a class="nav-link__footer active__footer" href="contacts.html">Contact</a>
         </li>
         <li class="navigation-list-footer__item">
-            <a class="nav-link__footer" href="#">
-                <img class="search-image" src="../images/searchwhite.png" alt="image not found">
+            <a class="nav-link__search footer__search" href="#">
+                <div class="footer__search"></div>
+                <!--<img class="search-image" src="../images/searchwhite.png" alt="image not found">-->
             </a>
         </li>
     </ul>
-    <div class="split__line__footer margin__auto"></div>
-    <p class="description margin__auto">
+    <p class="description">
         Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper
         ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.
     </p>
-    <div class="split__line__footer margin__auto"></div>
-    <p class="copyright margin__auto">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
+    <p class="copyright">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
         <a class="developer_link" href="developer.it">Buddha Team</a>
     </p>
-    <ul class="social__networks margin__auto">
+    <ul class="social__networks">
         <li class="social-networks__item">
-            <img src="../images/facebook.png">
+            <!--<img src="../images/facebook.png">-->
+            <a class="social__networks__link social__networks__facebook" href="#">
+                <div class="social__networks__facebook"></div>
+            </a>
         </li>
         <li class="social-networks__item">
-            <img src="../images/twitter.png">
+            <!--<img src="../images/twitter.png">-->
+            <a class="social__networks__link social__networks__twitter" href="#">
+                <div class="social__networks__twitter"></div>
+            </a>
         </li>
         <li class="social-networks__item">
-            <img src="../images/instagram.png">
+            <a class="social__networks__link social__networks__instagram" href="#">
+                <div class="social__networks__instagram"></div>
+            </a>
+            <!--<img src="../images/instagram.png">-->
         </li>
         <li class="social-networks__item">
-            <img src="../images/pinterest.png">
+            <a class="social__networks__link social__networks__pinterest" href="#">
+                <div class="social__networks__pinterest"></div>
+            </a>
+            <!--<img src="../images/pinterest.png">-->
         </li>
     </ul>
 </div>
