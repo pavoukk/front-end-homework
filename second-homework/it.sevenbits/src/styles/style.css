@@ -122,21 +122,27 @@ body::before {
     box-shadow: 0 0 20px rgba(0,0,0, 0.3);
     background-color: white;
     margin-bottom: 49px;
-    padding: 0;
+    padding-bottom: 60px;
 }
+
+.post__article {
+    max-width: 756px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*.no-post-image__item{*/
     /*padding: 5px 98px 50px 98px;*/
     /*padding:0;*/
 /*}*/
 .posts__date{
-    padding:5px 0 0 98px;
+    padding:25px 0 0 98px;
     /*position: relative;*/
     margin-bottom: 16px;
     font-size: 14px;
     max-width: max-content;
     width: 100%;
     color: #bdbdbd;
-    font-family: "Lato";
     font-weight: bold;
 }
 
@@ -200,14 +206,14 @@ body::before {
 .posts__title {
     /*position: relative;*/
     padding: 0 0 37px 0;
-    max-width: calc(100% - 196px);
+    max-width: 100%;
     width: 100%;
     font-size: 40px;
     line-height: 50px;
     color: #000000;
     font-family: "Lato";
     font-weight: bold;
-    margin: 0 auto 37px auto;
+    margin: 0 0 37px 0;
     border-bottom: 2px solid #eeeeee;
 }
 /*.posts__title:before {*/
@@ -226,12 +232,12 @@ body::before {
 
 }
 .posts__text, .text {
-    margin: 0 auto 16px auto;
+    margin: 0 0 16px 0;
     /*padding: 0 auto;*/
     font-size: 17px;
     line-height: 30px;
     /*max-width: 756px;*/
-    max-width: calc(100% - 196px);
+    max-width: 100%;
     color: #000000;
     font-family: "Lato";
 }
@@ -255,19 +261,12 @@ body::before {
 .button, .posts__button{
     padding: 20px 35px;
     position: relative;
-    /*left:35px;*/
-    /*bottom: -10px;*/
-    margin: 20px 0 0 63px;
-    /*margin: inherit;*/
-    /*margin-top:3px;*/
+    left: -5%;
     display: inline-block;
     max-width:max-content;
     width:100%;
-    /*max-width: px;*/
-    /*width:100%;*/
     color: #5c6bc0;
     font-size: 21px;
-    font-family: "Lato";
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -290,7 +289,7 @@ body::before {
 .button:hover, .posts__button:hover  {
     content: '';
     position: relative;
-    left: -1px;
+    left: calc(-5% - 1px);
     top: -1px;
     border: 1px solid #7f7f7f;
     /*content: '';*/
@@ -302,20 +301,23 @@ body::before {
 
 .posts__hashtags-list {
     position: relative;
+    float: right;
     padding: 0;
-    text-align: right;
+
 }
 
 .hashtags-list {
     display: inline-flex;
-    justify-content: flex-end;
-    margin: inherit;
+    justify-content: space-between;
+    /*margin: inherit;*/
+    margin-top: 20px;
 }
 .hashtags-list__item{
     color: #b7b7b7;
     display: inline-block;
     text-decoration: none;
     text-transform: capitalize;
+    padding-left: 8px;
     /*padding-left: 10px;*/
     /*background-position: 100%;*/
 }
@@ -367,12 +369,11 @@ body::before {
     filter: brightness(80%);
 }
 .third-post__image {
-    padding-left:60px;
     float: left;
 }
 .quote, .posts__quote{
     margin: 0 auto;
-    max-width: calc(100% - 196px);
+    max-width: 100%;
     font-size: 25px;
     line-height: 38px;
     color: #7f7f7f;
@@ -380,7 +381,7 @@ body::before {
     font-style: italic;
 }
 .posts__quote_left-border {
-    margin: 26px 98px 26px 74px;
+    margin: 26px 0 26px 0;
     position: relative;
     left: 24px;
     font-size: 20px;
@@ -415,6 +416,7 @@ body::before {
     color: #ffffff;
 }
 .inactive__footer{
+    pointer-events: none;
     color: #a9afdb;
 }
 .active__footer:after{
@@ -432,6 +434,9 @@ body::before {
     transition: left 0.3s ease-in-out;
 }
 .navigation-list__footer{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
 }
@@ -443,7 +448,7 @@ body::before {
     font-family: "Lato";
     font-weight: bold;
     text-align: right;
-    padding-left: 32px;
+    /*padding-left: 32px;*/
     display: inline-block;
 }
 .nav-link__search, .footer__search {
@@ -456,9 +461,6 @@ body::before {
 .footer__search:hover {
     content: '';
     background-color: #5360ac;
-}
-.navigation-list-footer__item:first-child{
-    color: #8d98d3;
 }
 .description {
     position: relative;
@@ -614,22 +616,21 @@ body::before {
     }
     .posts__hashtags-list {
         display: block;
-        text-align: left;
-        padding: 38px 0 56px 46px;
+        padding-top: 20px;
+        /*padding: 38px 0 56px 46px;*/
+
     }
     .posts__date {
         padding-left: 50px;
     }
     .posts__quote {
-        max-width: calc(100% - 100px);
+        max-width: 100%;
     }
     .third-post__image {
         float: none;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
-        padding: 13px 0 50px 0;
+        padding-top: 13px;
         /*padding: 0 auto;*/
     }
     .posts__quote_left-border {
