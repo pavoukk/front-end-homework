@@ -1,0 +1,30 @@
+.footer {
+    width: 1062px;
+    margin: 0 auto;
+}
+
+.contacts__list {
+    padding-left: 60px;
+    list-style: none;
+    margin: 0 0 0 80px;
+}
+
+.contacts__item {
+    padding: 45px 0;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: ArialMT, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.contacts__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    background-color: #f0f0f0;
+}

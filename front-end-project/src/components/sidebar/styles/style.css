@@ -1,0 +1,52 @@
+.personal__info {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.personal-info__title {
+    font-family: ArialMT, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #626262;
+}
+
+.personal-info__text {
+    line-height: 20px;
+    margin: 21px 0 33px 0;
+    width: 273px;
+    font-family: ArialMT, sans-serif;
+    font-size: 12px;
+    color: #626262;
+}
+
+.top__posts {
+    font-family: ArialMT, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c6c1b6;
+    font-weight: normal;
+}
+
+.top-posts__list {
+    padding: 15px;
+    list-style: inherit;
+    text-align: left;
+    color: #b7b1a2;
+
+}
+
+.post-title__main {
+    margin: 30px 0 14px 20px;
+    font-family: ArialMT, sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
+
+.comments__link {
+    margin-left: 20px;
+    color: #c6c1b6;
+    text-decoration: none;
+    font-family: ArialMT, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}

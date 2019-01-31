@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo diary</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+{{>header/header}}
+
+<main class="main main__content">
+    {{> @partial-block}}
+
+    {{>sidebar/sidebar}}
+</main>
+{{>footer/footer}};
+
+</body>
+</html>

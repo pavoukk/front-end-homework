@@ -1,0 +1,53 @@
+.header {
+    width: 1062px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 69px 94px 69px;
+}
+
+.header__hat {
+    background-image: url(../images/image_head.png);
+    width: 1062px;
+    height: 675px;
+    display: inline-block;
+
+}
+
+.title {
+    width: 168px;
+    display: inline-block;
+    font-family: Inconsolata, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+.sections {
+    text-align: right;
+    display: inline-block;
+}
+
+.sections__list {
+    margin: 0;
+    padding: 75px 0;
+    list-style: none;
+    width: 890px;
+}
+
+.section {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: ArialMT, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #626262;
+}
+
+.section__link {
+    color: #626262;
+    text-decoration: none;
+}

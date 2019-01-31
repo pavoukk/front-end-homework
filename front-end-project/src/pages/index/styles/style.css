@@ -1,0 +1,35 @@
+.main__section {
+    display: inline-block;
+}
+
+.main-section__title {
+    font-size: 14px;
+    font-family: ArialMT, sans-serif;
+    text-transform: uppercase;
+    color: #c6c1b6;
+    margin-left: 75px;
+}
+
+.main-post__title {
+    font-family: ArialMT, sans-serif;
+    font-size: 30px;
+    color: #626262;
+    font-weight: normal;
+    margin: 25px 0 35px 75px;
+}
+
+.main-post__text {
+    line-height: 25px;
+    font-family: ArialMT, sans-serif;
+    font-size: 14px;
+    color: #626262;
+    margin: 0 40px 280px 75px;
+    width: 657px;
+
+}
+
+.main-center__image {
+    text-align: center;
+    width: 657px;
+    margin: 40px 0;
+}
