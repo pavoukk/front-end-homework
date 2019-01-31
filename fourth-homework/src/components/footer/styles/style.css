@@ -1,0 +1,236 @@
+.footer {
+    background-color: #5c6bc0;
+}
+
+.blog__name {
+    padding: 68px 0 65px 0;
+    text-align: center;
+    font-size: 36px;
+    line-height: 25px;
+    color: #4a569a;
+    margin: 0 auto;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-link__footer, .active__footer {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.inactive__footer {
+    pointer-events: none;
+    color: #a9afdb;
+}
+
+.active__footer:after {
+    position: absolute;
+    content: '';
+    left: 100%;
+    right: 0;
+    height: 1px;
+    top: 20px;
+    background-color: white;
+    transition: left 0.3s ease-in-out;
+}
+
+.active__footer:hover:after {
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.navigation-list__footer {
+    display: flex;
+    max-width: 30%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.navigation-list-footer__item {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right;
+    /*padding-left: 32px;*/
+    display: inline-block;
+}
+
+.nav-link__search, .footer__search {
+    margin-bottom: -8px;
+    position: relative;
+    background: url("./images/searchwhite.png") no-repeat center;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__search:hover {
+    content: '';
+    background-color: #5360ac;
+}
+
+.description {
+    position: relative;
+    max-width: 728px;
+    width: 100%;
+    margin: 83px auto 83px auto;
+    color: #9da6d9;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.description:before {
+    left: 0;
+    position: absolute;
+    top: -38px;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #5765b5;
+}
+
+.description::after {
+    content: '';
+    height: 2px;
+    background-color: #5765b5;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: -37px;
+}
+
+.copyright {
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #8f9ad3;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.developer_link {
+    position: relative;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.developer_link:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 1px;
+    left: 100%;
+    right: 0;
+    transition: left 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.developer_link:hover:after {
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.social__networks {
+    padding: 19px 0 80px 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.social-networks__item {
+    height: 32px;
+    width: 32px;
+    margin: 0 4px;
+    padding: 8px;
+    display: inline-block;
+}
+
+.social__networks__link {
+    position: relative;
+    height: 32px;
+    width: 32px;
+}
+
+.social__networks__facebook {
+    background: url("./images/facebook.png") no-repeat center;
+    height: 22px;
+    margin-top: 4px;
+}
+
+.social__networks__instagram {
+    background: url("./images/instagram.png") no-repeat center;
+    height: 22px;
+    margin-top: 4px;
+}
+
+.social__networks__twitter {
+    background: url("./images/twitter.png") no-repeat center;
+    height: 21px;
+    margin-top: 4px;
+}
+
+.social__networks__pinterest {
+    background: url("./images/pinterest.png") no-repeat center;
+    height: 22px;
+    margin-top: 4px;
+}
+
+.social-networks__item:hover {
+    content: '';
+    background-color: #5360ac;
+}
+
+@media screen and (max-width: 480px) {
+    .navigation-list__footer {
+        text-align: left;
+    }
+
+    .navigation-list-footer__item {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    .navigation-list-footer__item:last-child {
+        display: none;
+    }
+
+    .description:after {
+        width: 90%;
+        left: 5%;
+    }
+
+    .footer {
+        padding: 20%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navigation-list__footer {
+        flex-flow: wrap;
+        flex-wrap: revert;
+    }
+
+    .navigation-list-footer__item {
+    }
+
+    .description {
+        margin-bottom: 75px;
+    }
+
+    .copyright:before {
+    }
+
+    .social-networks__item {
+        margin: 0;
+        padding: 4px;
+    }
+}

@@ -1,0 +1,149 @@
+.main {
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-bottom: 150px;
+    padding: 0 0 60px 0;
+}
+
+.main__header, .main__header_480_320 {
+    text-transform: capitalize;
+    max-width: 756px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0 46px 0;
+    font-size: 30px;
+}
+
+.main__text {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.main__text:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.main__form-fields {
+    max-width: 756px;
+    margin: 0 auto;
+}
+
+.main__field, .field, .main__textarea, .textarea {
+    font-family: "Lato", sans-serif;
+
+    max-width: calc(100% - 60px);
+    margin: 0 auto 26px auto;
+    font-size: 20px;
+    color: #333333;
+    background-color: #f7f9fb;
+    height: 60px;
+    width: 100%;
+
+    border: 0 solid #949caa;
+    border-left: none;
+    border-right: none;
+    padding: 0 30px;
+}
+
+.field_inline-block {
+    display: inline;
+    max-width: 302px;
+    width: 100%;
+}
+
+.email {
+    margin-left: 26px;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    color: #bcbdbf;
+}
+
+.main__textarea {
+    padding-top: 20px;
+    height: 145px;
+}
+
+.submit, .main__submit {
+    border: none;
+    background-color: white;
+    max-width: max-content;
+    width: 100%;
+}
+
+.main__header_480_320 {
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .article {
+        max-width: 350px;
+        width: 90%;
+    }
+
+    .content__header:before {
+        max-width: 210px;
+    }
+
+    .main__form-fields {
+        margin-left: auto;
+        margin-right: auto;
+        /*max-width: calc(100% - 100px);*/
+    }
+
+    .main__text {
+        /*max-width: calc(100% - 100px);*/
+        max-width: 350px;
+        width: 90%;
+    }
+
+    .field_inline-block {
+        max-width: calc(100% - 60px);
+    }
+
+    .email {
+        margin-left: 0;
+    }
+
+    .main__submit {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .article {
+        max-width: 280px;
+        width: 90%;
+    }
+
+    .main__header {
+        max-width: 230px;
+        width: 90%;
+    }
+
+    .main__header_480_320 {
+        padding: 50px 0 28px;
+        margin: 0 25px;
+    }
+
+    .main__text {
+        /*max-width: calc(100% - 50px);*/
+        max-width: 230px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
+
+    .main__form-fields {
+        /*max-width: calc(100% - 50px);*/
+        max-width: 230px;
+        width: 90%;
+    }
+}
